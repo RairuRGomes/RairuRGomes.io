@@ -65,22 +65,22 @@
           <div class="row">
             <div class="col">
               <h2>Quilômetro</h2>
-              <form>
-                <div class="form-group">
+                <div>
                   <label >Quilômetro</label>
                   <input type="number" class="form-control" id="quilometro" placeholder="Digite o numero a ser convertido">
                 </div>
-                <div class="form-group">
+                <div>
                   <label >Metro</label>
                   <input type="text" class="form-control" id="metro" aria-describedby="emailHelp" placeholder="Resultado em Metro" readonly>
                 </div>
-                <div class="form-group">
+                <div>
                   <label>Centrímetro</label>
                   <input type="text" class="form-control" id="centimetro" placeholder="Resultado em Centrímetro" readonly>
                 </div>
-                <button type="submit" onclick="resultado()" class="btn btn-primary">Converter</button>
-                <button type="submit" onclick="limpar()" class="btn btn-primary">Limpar</button>
-              </form>
+                <div class="mt-2">
+                  <button onclick="resultado()" class="btn btn-primary">Converter</button>
+                  <button onclick="limpar()" class="btn btn-primary">Limpar</button>
+                </div>
             </div>
           </div>
         </div>
