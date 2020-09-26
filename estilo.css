@@ -1,0 +1,26 @@
+.tudo-darkmode{
+    background-color: black;
+    color: white;
+    transition: 1ms;
+}
+
+.rairu {
+    color: coral;
+}
+.convert{
+    color: aquamarine;
+}
+.banner{
+    background-color: floralwhite;
+}
+.capa {
+    text-align: center;
+    color: black;
+    font-family: 'Solway', serif;
+    font-weight: 800;
+    font-size: 2000px;
+   
+}
+.dark{
+    transition: 1ms;
+}

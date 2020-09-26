@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Rairu Converter</title>
+    <!-- Required meta tags -->
+    <meta name="author" content="Rairu Rufino Gomes">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="dark"">
+      <header>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand logomenu" href="#"> <h3><span class="rairu">Rairu</span><span class="convert">Converter</span></h3> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Centímetro</a>
+                    </li>
+                    <li class="nav-item active">
+                      <button class="btn-sm btn-outline-dark btn-toggle" onclick="dakrmode()">
+                        <i>darkmode</i>
+                      </button>
+                    </li>
+                  </ul>
+
+
+                  
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div> 
+      </header>
+      <section id="home" class="d-flex "> 
+        <div class="container align-self-center"> 
+          <div class="row"> 
+            <div class="col-md-12 capa">
+              <div class="carousel slide" data-ride="carousel">      
+                <div class="carousel-inner"> 
+                  <div class="carousel-item active">
+                    <h1>Centímetro</h1>
+                  </div>
+                  <div class="carousel-item">
+                    <h1>Metro</h1>
+                  </div>
+                  <div class="carousel-item">
+                    <h1>Quilômetro</h1>
+                  </div>
+                  </div> 
+              </div> 
+            </div>
+          </div>
+        </div> 
+      </section> 
+
+      <section class="dark">
+        <div class="container">
+          <div class="row">
+            <div class="col dark">
+              <h2>Centímetro</h2>
+              <form>
+                <div class="form-group">
+                  <label >Centrímetro</label>
+                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Digite o numero a ser convertido">
+                </div>
+                <div class="form-group">
+                  <label >Metro</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Resultado em Metros" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Quilômetro</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Resultado em Quilômetro" readonly>
+                </div>
+                <button type="submit" class="btn btn-primary">Converter</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
